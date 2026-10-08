@@ -1,53 +1,56 @@
-// Servidor de pruebas para los ejemplos de cliente (secciones 6 a 9 del documento).
-// Ejecutar con: node servidor-pruebas.js   (y dejarlo corriendo en una terminal)
+// Servidor de pruebas para los ejemplos de cliente.
+// Uso: node servidor-pruebas.js          (escucha en el puerto 3000)
+//      node servidor-pruebas.js 4000     (escucha en el puerto que le digas)
 const http = require('node:http');
 
+const PUERTO = Number(process.argv[2]) || 3000;
 const productos = [{ id: 1, nombre: 'Taza', precio: 1500 }];
 
-function json(res, status, data) {
-  res.writeHead(status, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify(data));
+// Función auxiliar: responde con un objeto convertido a JSON
+function responderJSON(res, status, datos) {
+  res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8' });
+  res.end(JSON.stringify(datos));
 }
 
 const server = http.createServer(async (req, res) => {
   const { pathname } = new URL(req.url, 'http://localhost');
   console.log(`${new Date().toLocaleTimeString()}  ${req.method} ${req.url}`);
 
-  // GET /productos -> lista
+  // GET /productos -> devuelve la lista
   if (req.method === 'GET' && pathname === '/productos') {
-    return json(res, 200, productos);
+    return responderJSON(res, 200, productos);
   }
 
-  // POST /productos -> agrega uno
+  // POST /productos -> agrega un producto
   if (req.method === 'POST' && pathname === '/productos') {
     const partes = [];
-    for await (const chunk of req) partes.push(chunk);
+    for await (const parte of req) partes.push(parte);
     try {
       const nuevo = JSON.parse(Buffer.concat(partes).toString('utf8'));
       nuevo.id = productos.length + 1;
       productos.push(nuevo);
-      return json(res, 201, nuevo);
+      return responderJSON(res, 201, nuevo);
     } catch {
-      return json(res, 400, { error: 'JSON inválido' });
+      return responderJSON(res, 400, { error: 'JSON inválido' });
     }
   }
 
-  // DELETE /productos -> borra el último
+  // DELETE /productos -> borra el último producto
   if (req.method === 'DELETE' && pathname === '/productos') {
     productos.pop();
     res.writeHead(204);
     return res.end();
   }
 
-  // GET /lento -> tarda 10 segundos (para probar timeouts)
+  // GET /lento -> tarda 10 segundos en responder
   if (pathname === '/lento') {
     setTimeout(() => res.end('Por fin respondí'), 10000);
     return;
   }
 
-  // GET /datos -> tarda 5 segundos (para probar AbortController)
+  // GET /datos -> tarda 5 segundos en responder
   if (pathname === '/datos') {
-    setTimeout(() => json(res, 200, { ok: true }), 5000);
+    setTimeout(() => responderJSON(res, 200, { ok: true }), 5000);
     return;
   }
 
@@ -56,10 +59,10 @@ const server = http.createServer(async (req, res) => {
     return res.end('Servidor de pruebas funcionando');
   }
 
-  json(res, 404, { error: 'No encontrado' });
+  responderJSON(res, 404, { error: 'No encontrado' });
 });
 
-server.listen(3000, () => {
-  console.log('Servidor de pruebas en http://localhost:3000');
+server.listen(PUERTO, () => {
+  console.log(`Servidor de pruebas en http://localhost:${PUERTO}`);
   console.log('Rutas: GET/POST/DELETE /productos, GET /lento, GET /datos');
 });
