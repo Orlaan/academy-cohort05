@@ -1,6 +1,5 @@
 console.log(typeof null); // "object"
 console.log(typeof []); // "object"
-console.log([] === []); // false
 console.log(0.1 + 0.2 === 0.3); // false
 console.log([1, 2, 3] + [1, 2]); // false
 
