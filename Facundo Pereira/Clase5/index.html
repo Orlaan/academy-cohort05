@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Buscador con Debounce</title>
+</head>
+<body>
+    <h1>Buscador:</h1>
+    <input id = "busqueda" placeholder = "Escribi para buscar...">
+    <p id="resultado"></p>
+
+    <script>
+        function debounce(fn,ms){
+            let timer;
+
+            return function(...args){
+                clearTimeout(timer);
+
+                timer = setTimeout(() => {
+                    fn(...args);
+                }, ms);
+            };
+        }
+
+        const input = document.getElementById("busqueda");
+        const resultado = document.getElementById("resultado");
+
+        function buscar(texto) {
+            resultado.textContent = texto
+                ? `Buscando: ${texto}`
+                : "Escribi algo para buscar";
+
+                console.log("Consulta ejecutada: " , texto);
+        }
+
+        const buscarConDebounce = debounce(buscar,500);
+
+        input.addEventListener("input", (event) => {
+            buscarConDebounce(event.target.value);
+        });
+    </script>
+</body>
+</html>
