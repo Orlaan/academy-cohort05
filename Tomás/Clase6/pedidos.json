@@ -1,0 +1,4743 @@
+[
+  {
+    "id": 1,
+    "fecha": "2026-01-01",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 3
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 2,
+    "fecha": "2026-01-01",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 3,
+    "fecha": "2026-01-04",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 4,
+    "fecha": "2026-01-04",
+    "cliente": "Ana Torres",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "fecha": "2026-01-05",
+    "cliente": "Valentina Ruiz",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 6,
+    "fecha": "2026-01-07",
+    "cliente": "Martín Acosta",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 7,
+    "fecha": "2026-01-08",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 8,
+    "fecha": "2026-01-11",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 9,
+    "fecha": "2026-01-12",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 10,
+    "fecha": "2026-01-14",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 11,
+    "fecha": "2026-01-16",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 12,
+    "fecha": "2026-01-16",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 13,
+    "fecha": "2026-01-16",
+    "cliente": "Tomás Benítez",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 14,
+    "fecha": "2026-01-17",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 15,
+    "fecha": "2026-01-18",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "fecha": "2026-01-19",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 17,
+    "fecha": "2026-01-19",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 18,
+    "fecha": "2026-01-20",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 19,
+    "fecha": "2026-01-22",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 20,
+    "fecha": "2026-01-22",
+    "cliente": "Martín Acosta",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 21,
+    "fecha": "2026-01-23",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 22,
+    "fecha": "2026-01-25",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 23,
+    "fecha": "2026-01-27",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 24,
+    "fecha": "2026-01-27",
+    "cliente": "Luis Pereyra",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 25,
+    "fecha": "2026-01-28",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 26,
+    "fecha": "2026-01-28",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 27,
+    "fecha": "2026-01-29",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 28,
+    "fecha": "2026-02-01",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 29,
+    "fecha": "2026-02-02",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 30,
+    "fecha": "2026-02-03",
+    "cliente": "Tomás Benítez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "fecha": "2026-02-06",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 32,
+    "fecha": "2026-02-07",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 33,
+    "fecha": "2026-02-07",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "fecha": "2026-02-08",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 35,
+    "fecha": "2026-02-09",
+    "cliente": "Luis Pereyra",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "fecha": "2026-02-10",
+    "cliente": "Martín Acosta",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 37,
+    "fecha": "2026-02-11",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      }
+    ],
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 38,
+    "fecha": "2026-02-14",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 39,
+    "fecha": "2026-02-14",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 40,
+    "fecha": "2026-02-15",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 41,
+    "fecha": "2026-02-16",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 42,
+    "fecha": "2026-02-20",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 43,
+    "fecha": "2026-02-21",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "fecha": "2026-02-22",
+    "cliente": "Luis Pereyra",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 45,
+    "fecha": "2026-02-22",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 46,
+    "fecha": "2026-02-23",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 47,
+    "fecha": "2026-02-24",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 48,
+    "fecha": "2026-02-27",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 49,
+    "fecha": "2026-02-27",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 50,
+    "fecha": "2026-03-03",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      }
+    ],
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 51,
+    "fecha": "2026-03-03",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 52,
+    "fecha": "2026-03-04",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 53,
+    "fecha": "2026-03-05",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 54,
+    "fecha": "2026-03-06",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 55,
+    "fecha": "2026-03-08",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 56,
+    "fecha": "2026-03-08",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 57,
+    "fecha": "2026-03-08",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 58,
+    "fecha": "2026-03-09",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 59,
+    "fecha": "2026-03-09",
+    "cliente": "Martín Acosta",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 60,
+    "fecha": "2026-03-15",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 3
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 61,
+    "fecha": "2026-03-16",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 62,
+    "fecha": "2026-03-17",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 63,
+    "fecha": "2026-03-17",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 64,
+    "fecha": "2026-03-17",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 65,
+    "fecha": "2026-03-18",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 66,
+    "fecha": "2026-03-19",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 67,
+    "fecha": "2026-03-20",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 68,
+    "fecha": "2026-03-21",
+    "cliente": "Ana Torres",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 69,
+    "fecha": "2026-03-21",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "fecha": "2026-03-21",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 71,
+    "fecha": "2026-03-23",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 72,
+    "fecha": "2026-03-24",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 73,
+    "fecha": "2026-03-27",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 74,
+    "fecha": "2026-03-29",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "fecha": "2026-04-01",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 76,
+    "fecha": "2026-04-03",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 77,
+    "fecha": "2026-04-05",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 78,
+    "fecha": "2026-04-06",
+    "cliente": "Martín Acosta",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "fecha": "2026-04-07",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 80,
+    "fecha": "2026-04-10",
+    "cliente": "Diego Sosa",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 81,
+    "fecha": "2026-04-11",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 82,
+    "fecha": "2026-04-12",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "fecha": "2026-04-13",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 84,
+    "fecha": "2026-04-13",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 85,
+    "fecha": "2026-04-17",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 86,
+    "fecha": "2026-04-23",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 87,
+    "fecha": "2026-04-24",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 88,
+    "fecha": "2026-04-24",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 89,
+    "fecha": "2026-04-26",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 90,
+    "fecha": "2026-04-30",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 91,
+    "fecha": "2026-04-30",
+    "cliente": "Tomás Benítez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "fecha": "2026-05-01",
+    "cliente": "Martín Acosta",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 93,
+    "fecha": "2026-05-02",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 3
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "fecha": "2026-05-05",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 95,
+    "fecha": "2026-05-05",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 96,
+    "fecha": "2026-05-07",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 97,
+    "fecha": "2026-05-09",
+    "cliente": "Carla Méndez",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 98,
+    "fecha": "2026-05-10",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 99,
+    "fecha": "2026-05-11",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 3
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 100,
+    "fecha": "2026-05-11",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "fecha": "2026-05-13",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 102,
+    "fecha": "2026-05-14",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 103,
+    "fecha": "2026-05-15",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 104,
+    "fecha": "2026-05-16",
+    "cliente": "Luis Pereyra",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 105,
+    "fecha": "2026-05-17",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 106,
+    "fecha": "2026-05-19",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 107,
+    "fecha": "2026-05-23",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 108,
+    "fecha": "2026-05-24",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 109,
+    "fecha": "2026-05-25",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 110,
+    "fecha": "2026-05-28",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 111,
+    "fecha": "2026-05-29",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 112,
+    "fecha": "2026-05-31",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 113,
+    "fecha": "2026-06-02",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 114,
+    "fecha": "2026-06-02",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 115,
+    "fecha": "2026-06-06",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 116,
+    "fecha": "2026-06-10",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 117,
+    "fecha": "2026-06-10",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 118,
+    "fecha": "2026-06-10",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 119,
+    "fecha": "2026-06-12",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 120,
+    "fecha": "2026-06-15",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 121,
+    "fecha": "2026-06-15",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 122,
+    "fecha": "2026-06-16",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 123,
+    "fecha": "2026-06-16",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 124,
+    "fecha": "2026-06-17",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 125,
+    "fecha": "2026-06-20",
+    "cliente": "Carla Méndez",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 126,
+    "fecha": "2026-06-22",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 127,
+    "fecha": "2026-06-23",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 128,
+    "fecha": "2026-06-24",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 129,
+    "fecha": "2026-06-25",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 130,
+    "fecha": "2026-06-25",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "fecha": "2026-06-27",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 132,
+    "fecha": "2026-06-30",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 133,
+    "fecha": "2026-07-04",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 134,
+    "fecha": "2026-07-05",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 135,
+    "fecha": "2026-07-06",
+    "cliente": "Diego Sosa",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 136,
+    "fecha": "2026-07-06",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 137,
+    "fecha": "2026-07-06",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 138,
+    "fecha": "2026-07-08",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 139,
+    "fecha": "2026-07-12",
+    "cliente": "Martín Acosta",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 140,
+    "fecha": "2026-07-12",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 141,
+    "fecha": "2026-07-15",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 3
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 142,
+    "fecha": "2026-07-15",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 143,
+    "fecha": "2026-07-16",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 144,
+    "fecha": "2026-07-20",
+    "cliente": "Martín Acosta",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 145,
+    "fecha": "2026-07-21",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "fecha": "2026-07-21",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 147,
+    "fecha": "2026-07-23",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 148,
+    "fecha": "2026-07-23",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 149,
+    "fecha": "2026-07-25",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 150,
+    "fecha": "2026-07-25",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 151,
+    "fecha": "2026-07-25",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 152,
+    "fecha": "2026-07-27",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 153,
+    "fecha": "2026-08-02",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 154,
+    "fecha": "2026-08-04",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 155,
+    "fecha": "2026-08-04",
+    "cliente": "Luis Pereyra",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 156,
+    "fecha": "2026-08-08",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 157,
+    "fecha": "2026-08-08",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 158,
+    "fecha": "2026-08-09",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 159,
+    "fecha": "2026-08-13",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 160,
+    "fecha": "2026-08-15",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 161,
+    "fecha": "2026-08-17",
+    "cliente": "Luis Pereyra",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 162,
+    "fecha": "2026-08-17",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 163,
+    "fecha": "2026-08-17",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 164,
+    "fecha": "2026-08-17",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 165,
+    "fecha": "2026-08-19",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 166,
+    "fecha": "2026-08-19",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 167,
+    "fecha": "2026-08-19",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 168,
+    "fecha": "2026-08-22",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 169,
+    "fecha": "2026-08-24",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 170,
+    "fecha": "2026-08-26",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 171,
+    "fecha": "2026-08-26",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 172,
+    "fecha": "2026-08-27",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 173,
+    "fecha": "2026-08-29",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 174,
+    "fecha": "2026-08-30",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 175,
+    "fecha": "2026-08-31",
+    "cliente": "Tomás Benítez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 176,
+    "fecha": "2026-08-31",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 177,
+    "fecha": "2026-09-05",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "fecha": "2026-09-06",
+    "cliente": "Julieta Romero",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200
+  },
+  {
+    "id": 179,
+    "fecha": "2026-09-06",
+    "cliente": "Carla Méndez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 180,
+    "fecha": "2026-09-07",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 181,
+    "fecha": "2026-09-10",
+    "cliente": "Carla Méndez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 182,
+    "fecha": "2026-09-11",
+    "cliente": "Diego Sosa",
+    "estado": "cancelado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 3
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 3500,
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 183,
+    "fecha": "2026-09-14",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 184,
+    "fecha": "2026-09-15",
+    "cliente": "Diego Sosa",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 6200,
+    "cupon": {
+      "codigo": "BIENVENIDA",
+      "descuento": 0.1
+    }
+  },
+  {
+    "id": 185,
+    "fecha": "2026-09-15",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 186,
+    "fecha": "2026-09-15",
+    "cliente": "Julieta Romero",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 187,
+    "fecha": "2026-09-15",
+    "cliente": "Martín Acosta",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 3
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 188,
+    "fecha": "2026-09-16",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 189,
+    "fecha": "2026-09-17",
+    "cliente": "Valentina Ruiz",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 190,
+    "fecha": "2026-09-17",
+    "cliente": "Tomás Benítez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 191,
+    "fecha": "2026-09-18",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 2
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 192,
+    "fecha": "2026-09-19",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      }
+    ],
+    "envio": null
+  },
+  {
+    "id": 193,
+    "fecha": "2026-09-20",
+    "cliente": "Tomás Benítez",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 2
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "fecha": "2026-09-21",
+    "cliente": "Ana Torres",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 3
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 4800
+  },
+  {
+    "id": 195,
+    "fecha": "2026-09-22",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 2
+      },
+      {
+        "sku": "TEC-01",
+        "producto": "Teclado mecánico",
+        "precioUnitario": 45000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 3500
+  },
+  {
+    "id": 196,
+    "fecha": "2026-09-23",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "SOP-07",
+        "producto": "Soporte de notebook",
+        "precioUnitario": 22000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 197,
+    "fecha": "2026-09-23",
+    "cliente": "Tomás Benítez",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAM-05",
+        "producto": "Webcam HD",
+        "precioUnitario": 38000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "fecha": "2026-09-25",
+    "cliente": "Luis Pereyra",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 3
+      }
+    ],
+    "cupon": {
+      "codigo": "OCTUBRE10",
+      "descuento": 0.05
+    }
+  },
+  {
+    "id": 199,
+    "fecha": "2026-09-28",
+    "cliente": "Luis Pereyra",
+    "estado": "pendiente",
+    "items": [
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "AUR-04",
+        "producto": "Auriculares",
+        "precioUnitario": 52000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MOU-02",
+        "producto": "Mouse inalámbrico",
+        "precioUnitario": 18000,
+        "cantidad": 2
+      },
+      {
+        "sku": "LAM-10",
+        "producto": "Lámpara de escritorio",
+        "precioUnitario": 24000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 0
+  },
+  {
+    "id": 200,
+    "fecha": "2026-09-30",
+    "cliente": "Diego Sosa",
+    "estado": "pagado",
+    "items": [
+      {
+        "sku": "HUB-06",
+        "producto": "Hub USB-C",
+        "precioUnitario": 27000,
+        "cantidad": 1
+      },
+      {
+        "sku": "CAB-08",
+        "producto": "Cable HDMI",
+        "precioUnitario": 6500,
+        "cantidad": 1
+      },
+      {
+        "sku": "SIL-09",
+        "producto": "Silla ergonómica",
+        "precioUnitario": 320000,
+        "cantidad": 1
+      },
+      {
+        "sku": "MON-03",
+        "producto": "Monitor 24\"",
+        "precioUnitario": 210000,
+        "cantidad": 3
+      }
+    ],
+    "envio": 6200
+  }
+]
