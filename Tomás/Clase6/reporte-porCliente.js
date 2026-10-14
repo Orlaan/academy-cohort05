@@ -1,4 +1,4 @@
-// Reporte por cliente
+// Reporte 1: total gastado por cliente
 
 const fs = require('fs');
 const pedidos = JSON.parse(fs.readFileSync('pedidos.json', 'utf8'));
