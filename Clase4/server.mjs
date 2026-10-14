@@ -21,13 +21,13 @@ const server = createServer((req, res) => {
   } else if (req.method === 'GET' && req.url === '/personas') {
     res.writeHead(200, { 'Content-Type': 'text/json; charset=utf-8' });
     res.end(JSON.stringify(array));
-  } else if(req.method === 'POST' && req.url === '/personas'){
+  } else if (req.method === 'POST' && req.url === '/personas') {
     const nuevaPersona = {
       nombre: 'Pedro',
       edad: 28
     };
     array.push(nuevaPersona);
-    res.writeHead(201 , { 'Content-Type': 'text/json; charset=utf-8' });
+    res.writeHead(201, { 'Content-Type': 'text/json; charset=utf-8' });
     res.end(JSON.stringify(nuevaPersona))
   } else {
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
