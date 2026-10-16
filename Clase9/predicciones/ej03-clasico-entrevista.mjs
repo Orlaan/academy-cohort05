@@ -1,5 +1,6 @@
 // Predicción antes de ejecutar (escribí el orden completo de los logs):
-// ...
+// script start -> async1 start ->  async2 -> promise1 -> script end -> async1 end -> promise2
+// -> setTimeout
 // Salida observada y explicación:
 // ...
 

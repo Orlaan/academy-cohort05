@@ -1,5 +1,5 @@
 // Predicción antes de ejecutar (escribí el orden completo de los logs):
-// ...
+// B falla -> C recuperado -> D -> E recuperado
 // Salida observada y explicación:
 // ...
 

@@ -1,5 +1,5 @@
 // Predicción antes de ejecutar (escribí el orden completo de los logs):
-// ...
+// A 1 -> C boom -> D 11
 // Salida observada y explicación:
 // ...
 
