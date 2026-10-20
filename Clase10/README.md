@@ -1,18 +1,14 @@
 # Clase 10 - Primeros components de React
 
-React + JavaScript/JSX. Starter sin las soluciones de los ejercicios.
+Mirá el [video de Mosh](https://www.youtube.com/watch?v=SqcY0GlETPk) del **2:43 al 4:57** y del **9:17 al 21:04**. Prestá atención al **11:20-16:41**, donde crea y muestra el primer component.
 
-## Para trabajar hoy
+Podés saltear la instalación del video porque el proyecto ya está preparado. Él usa `.tsx`; acá usamos JavaScript y `.jsx`.
 
-Primero mirá el [video de Mosh](https://www.youtube.com/watch?v=SqcY0GlETPk): del **2:43 al 4:57** y del **9:17 al 21:04**. Prestá especial atención al **11:20-16:41**, donde crea y muestra el primer component.
+Después seguí con los [ejercicios 1 al 4](ejercicios/README.md). El 5 y el 6 son opcionales. **No hay que entregar nada.** Si te trabás, guardá la duda o el error para que lo veamos en la próxima clase.
 
-Podés saltear la instalación del video: usá este proyecto y los comandos de abajo. Mosh usa `.tsx`; acá trabajamos con JavaScript y `.jsx`.
+## Cómo arrancar
 
-Después avanzá con los **ejercicios 1 al 4**. Los ejercicios **5 y 6 son opcionales**. Los tiempos de las consignas son orientativos: si te trabás, anotá qué intentaste y el mensaje de error para revisarlo en el próximo encuentro.
-
-## Arrancar
-
-Desde la raíz del repo:
+Desde la carpeta principal del repo:
 
 ```sh
 cd Clase10
@@ -20,33 +16,19 @@ npm ci
 npm run dev
 ```
 
-Usá Node.js 22.14 o una versión compatible más reciente. Abrí la dirección que imprime Vite. Para detenerlo: Ctrl+C.
+Necesitás Node.js 22.14 o una versión compatible más reciente. Abrí la dirección que aparece en la terminal y dejala ejecutándose mientras trabajás. Para detenerla, usá Ctrl+C.
 
-## Trabajar
+## Dónde trabajar
 
-1. Abrí [las consignas](ejercicios/README.md).
-2. Leé el archivo del ejercicio y escribí tu predicción antes de ejecutarlo.
-3. Copialo a `src` con el nombre indicado, completalo y usalo desde `App.jsx`.
-4. Guardá, mirá el navegador y guardá tu explicación para la descripción del PR.
+Las consignas te indican qué archivo copiar de `ejercicios` a `src`. Algunos están incompletos o tienen errores a propósito. La app no los usa hasta que los copies y los conectes desde `src/App.jsx`.
 
-Los originales de `ejercicios` contienen errores intencionales o tareas pendientes. No se cargan automáticamente en la app. Trabajá en las copias de `src`.
+Los estilos están en `src/index.css` y ya están preparados. No hace falta cambiar `main.jsx`, `index.html` ni la configuración.
 
-## Archivos preparados
-
-- `src/App.jsx`: la pantalla donde usás tus components.
-- `src/main.jsx`: conecta React con el contenedor de index.html.
-- `src/index.css`: estilos; no hace falta modificarlos hoy.
-- `index.html`: contenedor root y carga de main.jsx.
-
-## Comprobar
+Si querés revisar el código al terminar:
 
 ```sh
 npm run lint
 npm run build
 ```
 
-El lint revisa `src`, donde están tus respuestas. El build comprueba el código que usa la app. Los archivos de ejercicios no son soluciones y pueden no compilar hasta completarlos.
-
-## Entrega
-
-Seguí el flujo de ramas y PR de la academia. Incluí tus archivos, una captura, la predicción y la explicación de los errores corregidos. No subas `node_modules` ni `dist`.
+El primero busca problemas en `src`; el segundo comprueba que la app se pueda construir.
