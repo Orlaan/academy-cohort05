@@ -1,5 +1,5 @@
 export default function TaskItem() {
-    const titulo = 'Hacer PR';
+    const titulo = 'Hacer ejercicios 5 y 6 de la clase 10';
   return <article className="task-item"> 
         <h2>{titulo}</h2>
         <p>Pendiente</p>

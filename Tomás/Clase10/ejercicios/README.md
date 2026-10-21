@@ -72,4 +72,6 @@ Copiá `ej06-task-board.jsx` a `src/TaskBoard.jsx`.
 3. Exportá TaskBoard. En App, reemplazá las etiquetas anteriores por `<TaskBoard />` dentro del main. Conservá `className="task-board"` y quitá los imports que ya no usás.
 4. Cambiá titulo en TaskItem. ¿Por qué cambian las dos cards?
 
+Las dos cards muestran lo mismo porque las dos usan el mismo componente, y titulo está fijo dentro de TaskItem. Para que cada una muestre algo distinto habría que pasarle datos desde afuera
+
 No hace falta agregar botones, guardar tareas ni pasar datos entre components.
