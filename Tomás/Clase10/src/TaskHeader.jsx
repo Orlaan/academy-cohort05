@@ -1,6 +1,6 @@
 export default function TaskHeader() {
   return (
-    <header className="task-item">
+    <header className="task-header">
       <h1>Tomás Fernández</h1>
       <p>Full Stack Developer</p>
     </header>
