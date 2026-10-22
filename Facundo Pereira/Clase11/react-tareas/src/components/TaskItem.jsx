@@ -1,8 +1,7 @@
-export default function TaskItem() {
+export default function TaskItem({task, label = "Tarea"}) {
     return (
         <div>
-            <p>Preparar la demo</p>
-            <p>Revisar el PR</p>
+            <p>{label}: {task.title}</p>
         </div>
     );
 }
