@@ -1,8 +1,8 @@
-export default function Titulos() {
+export default function Titulos({title, subtitle}) {
   return (
     <>
-        <h1>Mentoría Full Stack</h1>
-        <h2>Mis Tareas</h2>
+        <h1>{title}</h1>
+        <h2>{subtitle}</h2>
     </>
   );
 }

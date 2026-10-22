@@ -1,9 +1,7 @@
-export default function Tareas() {
+export default function Tareas({ task, label = "Tarea" }) {
   return (
     <>
-        <p>Hacer los ejercicios</p>
-        <p>Hacer PR</p>
-        <p>Review del PR de Facu</p>
+        <p>{label}: {task.title}</p>
     </>
   );
 }
