@@ -1,6 +1,4 @@
-import TaskHeader from './components/TaskHeader';
-import TaskItem from './components/TaskItem';
-import Footer from './components/Footer';
+import TaskPage from "./components/TaskPage"
 
 const tasks = [
   {
@@ -19,14 +17,6 @@ const tasks = [
 
 ]
 
-export default function App() {
-  return (
-    <div>
-      <TaskHeader title="Mis Tareas Facu" subtitle="" />
-      <TaskItem task={tasks[0]} />
-      <TaskItem task={tasks[1]} label="Urgente" />
-      <TaskItem task={tasks[2]} />
-      <Footer />
-    </div>
-  );
-}
+export default function App({titulo = 'Mis tareas', conAyuda = true}) {
+  return <TaskPage tasks = {tasks} titulo = {titulo} conAyuda = {conAyuda} />
+};
