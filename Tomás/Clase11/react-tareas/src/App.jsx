@@ -1,11 +1,8 @@
 import "./App.css";
 import PaginaTareas from "./components/TaskPage";
-
-const tasks = [
-  { id: 1, title: "Hacer los ejercicios", completed: true },
-  { id: 2, title: "Hacer PR", completed: false },
-  { id: 3, title: "Review del PR de Facu", completed: false }
-];
+// import { tasks } from "./data/tasks";  // tareas de antes
+// import { noTasks as tasks } from "./data/tasks"; // sin tareas
+import { arrayTasks as tasks } from "./data/tasks";  // array de 20 tareas
 
 export default function App({ titulo = "Mis tareas", subtitulo = "Tomás Fernández", conAyuda = true }) {
   return <PaginaTareas tasks={tasks} titulo={titulo} subtitulo={subtitulo} conAyuda={conAyuda} />;

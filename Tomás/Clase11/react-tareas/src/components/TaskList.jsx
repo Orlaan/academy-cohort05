@@ -1,11 +1,11 @@
-import Tareas from "./TaskItem";
+import TaskItem from "./TaskItem";
 
-export default function ListaTareas({ tasks}) {
+export default function TaskList({ tasks }) {
     return (
         <>
-            <Tareas task={tasks[0]} />
-            <Tareas task={tasks[1]} label="Urgente"/>
-            <Tareas task={tasks[2]}/>
+            {tasks.map((task) => (
+                <TaskItem key={task.id} task={task} />
+            ))}
         </>
     )
 }

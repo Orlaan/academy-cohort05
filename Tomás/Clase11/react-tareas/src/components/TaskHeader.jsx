@@ -1,6 +1,6 @@
 //let renders = 0;
 
-export default function Titulos({ title, subtitle }) {
+export default function TaskHeader({ title, subtitle }) {
   let renders = 0;
   renders++;
   return (

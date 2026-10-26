@@ -1,16 +1,17 @@
-import Titulos from "./TaskHeader";
+import TaskHeader from "./TaskHeader";
 import Footer from "./Footer";
-import ListaTareas from "./TaskList";
+import TaskItem from "./TaskList";
 import Panel from "./Panel";
+import TaskSummary from "./TaskSummary";
 
-export default function PaginaTareas({ tasks, titulo, subtitulo, conAyuda }) {
+export default function TaskPage({ tasks, titulo, subtitulo, conAyuda }) {
   return (
     <div className="pagina">
-      <Titulos title={titulo} subtitle={subtitulo} />
+      <TaskHeader title={titulo} subtitle={subtitulo} />
 
       <div className="panels">
         <Panel title="Listado de Tareas">
-          <ListaTareas tasks={tasks} />
+          <TaskItem tasks={tasks} />
         </Panel>
 
         {conAyuda && (
@@ -18,6 +19,10 @@ export default function PaginaTareas({ tasks, titulo, subtitulo, conAyuda }) {
           <p>Cada tarea muestra su etiqueta y su título. Las urgentes aparecen como "Urgente".</p>
           </Panel>
         )}
+
+        <Panel title="Estado actual">
+          <TaskSummary tasks={tasks} />
+        </Panel>
       </div>
       
       <Footer />
