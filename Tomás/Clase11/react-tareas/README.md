@@ -1,16 +1,30 @@
-# React + Vite
+# React Tareas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lista de tareas hecha con React y Vite para la Mentoría Full Stack (Módulo 3).
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js 20 o superior
+- npm
 
-## React Compiler
+## Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Desde la carpeta del proyecto:
 
-## Expanding the ESLint configuration
+    cd react-tareas
+    npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Levantar el proyecto
+
+    npm run dev
+
+Después abrí http://localhost:5173 en el navegador.
+
+## Probar con distintas cantidades de tareas
+
+En src/data/tasks.js hay tres listas: tasks (tareas propias), sinTareas (0) y muchasTareas (20).
+Para cambiar de escenario, se modifica solo el import en src/App.jsx:
+
+    import { tasks } from "./data/tasks";
+    // import { sinTareas as tasks } from "./data/tasks";
+    // import { muchasTareas as tasks } from "./data/tasks";

@@ -1,7 +1,7 @@
-export default function Tareas({ task, label = "Tarea" }) {
+export default function TaskItem({ task, label = "Tarea" }) {
   return (
     <>
-        <p>{label}: {task.title}</p>
+        <p style={{ textDecoration: task.completed ? "line-through" : "none"}}>{label}: {task.title}</p>
     </>
   );
 }
