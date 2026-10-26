@@ -1,21 +1,5 @@
 import TaskPage from "./components/TaskPage"
-
-const tasks = [
-  {
-    id: 0,
-    title: "Preparar la demo",
-    completed: false
-  }, {
-    id: 1,
-    title: "Revisar el PR",
-    completed: false
-  }, {
-    id: 2,
-    title: "Leer sobre props",
-    completed: false
-  },
-
-]
+import { tasks } from "./data/tasks";
 
 export default function App({titulo = 'Mis tareas', conAyuda = true}) {
   return <TaskPage tasks = {tasks} titulo = {titulo} conAyuda = {conAyuda} />
