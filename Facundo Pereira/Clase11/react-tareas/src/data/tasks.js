@@ -1,4 +1,17 @@
-export const tasks = Array.from(
+
+export const tasks = [
+    { id: 1, title: "Estudiar React", completed: false },
+    { id: 2, title: "Preparar el PR", completed: true },
+    { id: 3, title: "Salir a correr", completed: false },
+    { id: 4, title: "Leer sobre props", completed: true },
+    { id: 5, title: "Hacer las compras", completed: false },
+    { id: 6, title: "Practicar JavaScript", completed: false },
+    { id: 7, title: "Ordenar el escritorio", completed: true },
+    { id: 8, title: "Repasar arrays", completed: false }
+];
+
+
+export const arrayTasks = Array.from(
     { length: 20 },
     (_, i) => ({
         id: i + 1,
