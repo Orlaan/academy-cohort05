@@ -1,12 +1,20 @@
-# Clase 15 - Leer código y cambiar una regla
+# Clase 15 - Leer y entender código
 
-El objetivo es practicar una skill que vamos a usar al trabajar con código propio, de otras personas o generado por AI: entender rápido qué hace. Identificá los datos, seguí las conditions y explicá qué se renderiza antes de ejecutar. La velocidad viene de comprender bien las reglas.
+Siete ejercicios independientes, ordenados de menor a mayor dificultad. El objetivo principal es probar tu habilidad individual para entender código: identificar datos, seguir las conditions y explicar qué se renderiza. La velocidad viene de comprender bien las reglas.
 
-Dos desafíos principales para los 30 minutos de práctica. El 3 y el 4 quedan como extensiones. No hay entrega ni PR.
+El código inicial ya funciona. Cada ejercicio se puede resolver sin completar los anteriores. No hay entrega ni PR.
 
-El código inicial ya funciona. Cada component separa Datos, Reglas y UI. Primero leelo y anticipá qué muestra; después ejecutalo y modificá la regla pedida. No hace falta empezar una app de cero.
+## Cómo trabajar
+
+1. Leé el archivo individualmente, sin ejecutarlo ni modificarlo.
+2. Para cada caso, anotá qué aparece, qué se omite y qué expression o return justifica tu respuesta. Incluí className y disabled cuando corresponda.
+3. Explicá en una frase qué hace el component y qué dato podría cambiar la pantalla.
+4. Recién después ejecutalo para comprobar tus predicciones. Si hubo una diferencia, identificá qué regla leíste mal.
+
+**La lectura y la explicación son la parte principal. Cada cambio de código es un extra opcional.** Primero completá la lectura de los ejercicios que puedas; después volvé a los extras.
 
 ## Inicio
+
 Necesitás Node.js 22.14 o una versión compatible más reciente. Desde la raíz del repo:
 
 ```powershell
@@ -15,20 +23,70 @@ npm ci
 npm run dev
 ```
 
-Si ya estás dentro de Clase15, salteá el primer comando. Abrí la dirección que muestra la terminal y dejala ejecutándose mientras trabajás.
+Si recibiste el proyecto como ZIP, ejecutá solo npm ci y npm run dev dentro de la carpeta extraída. Abrí la dirección que muestra la terminal.
 
-Para elegir otro desafío, cambiá solo el import de src/App.jsx:
+El primer ejercicio ya está conectado. Para elegir otro, cambiá solo el import de src/App.jsx:
 
 ```jsx
-import Exercise from "./ejercicios/02-resultados.jsx";
+import Exercise from "./ejercicios/02-avisos.jsx";
 ```
 
-Conservá el resto de App. Los buttons solo representan condiciones: no tienen acciones de click. Cambiá las constants y guardá para probar cada caso. Se supone que los conteos son enteros mayores o iguales a cero.
+Las pruebas de lectura se resuelven antes de cambiar ese import y abrir la pantalla. Los buttons muestran condiciones y no tienen acciones de click. Cambiá las constants y guardá para comprobar cada caso. Los conteos son enteros mayores o iguales a cero.
 
-## 1. Inscripción con cupos - principal, 15 minutos
-Archivo: src/ejercicios/01-inscripcion.jsx.
+## 1. Estado de una tarea - un ternary
 
-Leé el component sin ejecutarlo. Para cada caso, anticipá el texto de cupos, si aparece Inscripción cerrada, el texto del button, su disabled y la class del article.
+Archivo: src/ejercicios/01-estado.jsx.
+
+Anticipá el heading y el paragraph para cada caso.
+
+| done |
+| --- |
+| false |
+| true |
+
+¿Cambia todo el article o solo una parte? ¿Qué texto se mostraría si el paragraph fuera `<p>status</p>`?
+
+Extra opcional: agregá showStatus. Con false se omite solo el paragraph; el heading sigue visible. Con true conserva el comportamiento inicial.
+
+## 2. Avisos - dos condiciones independientes
+
+Archivo: src/ejercicios/02-avisos.jsx.
+
+Anticipá el resumen y si aparece el paragraph de detalle. Explicá por separado de qué dato depende cada uno.
+
+| notificationCount | showDetails |
+| --- | --- |
+| 0 | true |
+| 0 | false |
+| 3 | true |
+| 3 | false |
+
+¿Puede aparecer el detalle cuando no hay avisos? ¿Aparece un 0 suelto en la pantalla?
+
+Extra opcional: agregá isMuted. Con true se omite el detalle aunque showDetails sea true. El resumen y el heading mantienen sus reglas.
+
+## 3. Ticket - conditions combinadas y fallback
+
+Archivo: src/ejercicios/03-ticket.jsx.
+
+Anticipá estado, responsable, aviso y className del article.
+
+| isClosed | isUrgent | ownerName |
+| --- | --- | --- |
+| false | true | "" |
+| false | false | "Ana" |
+| true | true | "Ana" |
+| true | false | "" |
+
+¿Por qué un ticket cerrado no muestra el aviso aunque sea urgente? ¿Qué se muestra si ownerName es un string vacío? Señalá qué cambia al cerrar el ticket y qué permanece.
+
+Extra opcional: agregá isArchived. Con true el component devuelve null. Con false conserva su comportamiento. Comprobá un ticket archivado, urgente y sin responsable.
+
+## 4. Inscripción - una regla compartida entre varias partes de la UI
+
+Archivo: src/ejercicios/04-inscripcion.jsx.
+
+Anticipá el texto de cupos, el aviso de cierre, el texto del button, disabled y className del article.
 
 | registrationOpen | seatsLeft |
 | --- | --- |
@@ -37,17 +95,15 @@ Leé el component sin ejecutarlo. Para cada caso, anticipá el texto de cupos, s
 | true | 0 |
 | false | 0 |
 
-Después comprobá tus predicciones. ¿Por qué registrationOpen=true no alcanza para habilitar el button? ¿Qué partes de la UI cambian al pasar de seatsLeft=3 a 0?
+¿Por qué registrationOpen=true no alcanza para habilitar el button? ¿Qué partes cambian al pasar de 3 cupos a 0 con la inscripción abierta?
 
-### Nueva regla
-Agregá la constant isSubmitting. Mientras sea true, el button debe estar deshabilitado y decir Enviando..., aunque haya cupos y la inscripción esté abierta. Cuando sea false, debe conservar el comportamiento inicial. La class available solo se aplica cuando realmente se puede inscribir.
+Extra opcional: agregá isSubmitting. Con true, el button queda deshabilitado y dice Enviando..., aunque haya cupos y la inscripción esté abierta. La class available solo aparece cuando realmente se puede inscribir. Los mensajes de cupos y de cierre conservan sus reglas. Con false, conserva el comportamiento inicial.
 
-Probá isSubmitting=true con inscripción abierta y cerrada, y con cupos en 3 y 0. Los mensajes de cupos y de inscripción cerrada siguen dependiendo de sus datos originales.
+## 5. Resultados - prioridades y early returns
 
-## 2. Resultados con prioridades - principal, 15 minutos
-Archivo: src/ejercicios/02-resultados.jsx.
+Archivo: src/ejercicios/05-resultados.jsx.
 
-Antes de ejecutar, anticipá qué h2 y qué paragraph se ven en cada caso. Incluí los casos en que no aparece ningún paragraph.
+Anticipá qué heading y qué paragraph aparecen. Incluí los casos en que no aparece ningún paragraph.
 
 | isLoading | hasError | resultCount |
 | --- | --- | --- |
@@ -57,15 +113,15 @@ Antes de ejecutar, anticipá qué h2 y qué paragraph se ven en cada caso. Inclu
 | false | false | 4 |
 | false | false | 0 |
 
-Comprobá por qué Cargando gana cuando isLoading y hasError son true. ¿Se evalúa el return final después de ejecutar el primer return?
+¿Por qué Cargando gana cuando los dos booleans son true? ¿Se ejecuta el return final después del primer return? ¿En qué casos resultCount no influye en la pantalla?
 
-### Nueva regla
-Agregá isOffline. Si es true, el component debe mostrar únicamente un section con el h2 Sin conexión. Tiene prioridad sobre loading, error y resultados. Si es false, el resto del comportamiento queda igual. Probá el caso isOffline=true, isLoading=true, hasError=true y resultCount=4.
+Extra opcional: agregá isOffline. Con true se muestra solo un section con el h2 Sin conexión. Tiene prioridad sobre loading, error y resultados. Con false, conserva el comportamiento inicial.
 
-## 3. Descarga pública o privada - extensión
-Archivo: src/ejercicios/03-descarga.jsx.
+## 6. Descarga - acceso, disponibilidad y avisos independientes
 
-Anticipá si se puede descargar, qué avisos se ven y si aparece el contador. Después comprobalo.
+Archivo: src/ejercicios/06-descarga.jsx.
+
+Anticipá si el button está habilitado, qué avisos aparecen y si se muestra el contador. Explicá primero canView y después canDownload.
 
 | hasFile | isPrivate | hasAccess | downloadCount |
 | --- | --- | --- | --- |
@@ -75,35 +131,34 @@ Anticipá si se puede descargar, qué avisos se ven y si aparece el contador. De
 | false | true | true | 3 |
 | false | true | false | 0 |
 
-¿Por qué un archivo público puede descargarse con hasAccess=false? El contador es un dato de práctica independiente de la disponibilidad actual del archivo.
+¿Por qué un archivo público puede descargarse con hasAccess=false? ¿Pueden coexistir dos avisos? ¿Por qué no aparece un 0 suelto? El contador es un dato de práctica independiente de la disponibilidad actual.
 
-### Nueva regla
-Agregá isBlocked. Con true, la descarga queda deshabilitada y aparece Archivo bloqueado. El bloqueo tiene que ganar aunque el archivo sea público. Los demás avisos y el contador mantienen sus reglas; pueden coexistir. No debe quedar un 0 suelto.
+Extra opcional: agregá isBlocked. Con true se deshabilita la descarga y aparece Archivo bloqueado, aunque el archivo sea público. Los demás avisos y el contador conservan sus reglas. Con false, conserva el comportamiento inicial.
 
-## 4. Ticket urgente, cerrado o archivado - extensión
-Archivo: src/ejercicios/04-ticket.jsx.
+## 7. Reserva - integrar prioridades, null, cálculos y JSX
 
-Anticipá el estado, responsable, aviso y class del article.
+Archivo: src/ejercicios/07-reserva.jsx.
 
-| isClosed | isUrgent | ownerName |
-| --- | --- | --- |
-| false | true | "" |
-| false | false | "Ana" |
-| true | true | "Ana" |
-| true | false | "" |
+unitPrice vale 50 y el descuento es un importe fijo de 20 sobre la reserva completa. Para cada caso, anticipá si aparece una pantalla alternativa, nada o el resumen. Si aparece el resumen, indicá cantidad, precio anterior, total y className.
 
-¿Por qué un ticket cerrado no muestra el aviso aunque isUrgent sea true? ¿Qué nombre se muestra si ownerName es un string vacío?
+| isCancelled | isLoading | ticketCount | hasDiscount |
+| --- | --- | --- | --- |
+| true | true | 2 | true |
+| false | true | 2 | false |
+| false | false | 0 | true |
+| false | false | 2 | false |
+| false | false | 2 | true |
+| true | false | 0 | false |
 
-### Nueva regla
-Agregá isArchived. Con true, el component no debe producir content visible. Con false conserva su comportamiento. Probá un ticket archivado que también sea urgente y no tenga responsable.
+¿ticketCount=0 siempre significa que no habrá content visible? ¿En qué casos se alcanzan los cálculos? ¿Por qué el precio anterior y la class discounted cambian juntos? Explicá la prioridad completa sin ejecutar.
 
-## Regla de lectura
-Usá nombres que expliquen la intención, conditions separadas y returns fáciles de seguir. No hace falta usar nested ternaries, hooks, events, APIs ni arrays. No cambies las constants dentro de una misma prueba para forzar el resultado esperado.
+Extra opcional: agregá isRefunded. Con true se muestra únicamente el h2 Reserva reembolsada y tiene prioridad sobre todos los casos, incluido ticketCount=0. Con false, conserva el comportamiento inicial.
 
-## Comprobar el proyecto
+## Comprobar cambios opcionales
+
 ```powershell
 npm run lint
 npm run build
 ```
 
-Compará además la pantalla con cada caso. Un build correcto no demuestra que las reglas estén bien.
+Usá nombres claros, conditions separadas y returns fáciles de seguir. No hacen falta nested ternaries, hooks, events, APIs ni arrays. Un build correcto no demuestra que entendiste el comportamiento: compará la pantalla con tus predicciones y justificá las diferencias.
